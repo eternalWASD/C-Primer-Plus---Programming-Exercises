@@ -4,6 +4,7 @@ Suggestion: Use a character count and the modulus operator ( %) to print a newli
 character for every eight cycles of the loop. */
 
 
+
 #include <stdio.h>
 #include <ctype.h>
 
