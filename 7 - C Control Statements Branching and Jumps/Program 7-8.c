@@ -27,7 +27,7 @@ recycle. Use #defined constants for the various earning rates and tax rates. */
 #define TAXLIMIT2RATE 0.20
 #define TAXREST 0.25
 
-faq();
+void faq();
 
 int main(void)
 {
@@ -94,7 +94,7 @@ int main(void)
 	
 }
 
-faq()
+void faq()
 {
 	printf("*****************************************************************\n");
 	printf("Enter the number corresponding to the desired pay rate or action:\n");
